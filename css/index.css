@@ -1,0 +1,39 @@
+.header {
+  height: 40px;
+  background: #333;
+  color:#b0b0b0;
+  font-size:14px;
+  line-height: 40px;
+}
+.header ul li{
+  float: left;
+  margin-left:16px;
+}
+.header ul li:hover{
+  color:#fff;
+  cursor: pointer;
+}
+.nav{
+  height: 100px;
+  line-height: 100px;
+}
+.nav img{
+  margin-top:23px
+}
+.nav .nav-content{
+  margin-left:160px;
+}
+.nav .nav-content li{
+  float: left;
+  color:#333;
+  padding:0 10px;
+}
+.nav .nav-content li:hover{
+  color:#ff6700;
+  cursor: pointer;
+}
+.nav-search input{
+  width: 245px;
+  height: 50px;
+  border: 1px solid #e0e0e0
+}
