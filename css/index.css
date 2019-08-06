@@ -16,6 +16,7 @@
 .nav{
   height: 100px;
   line-height: 100px;
+  /* background: #000; */
 }
 .nav img{
   margin-top:23px
@@ -32,8 +33,80 @@
   color:#ff6700;
   cursor: pointer;
 }
+.nav-search{
+  position: relative;
+}
 .nav-search input{
   width: 245px;
   height: 50px;
-  border: 1px solid #e0e0e0
+  border: 1px solid #e0e0e0;
+  color:#757575;
+}
+.nav-search .search-btn{
+  width:50px;
+  border: 1px solid #e0e0e0;
+  border-left:0px solid #e0e0e0;
+  text-align: center;
+}
+.nav-text{
+  line-height: 0px;
+  position: absolute;
+  top:52px;
+  right: 48px;
+}
+.nav-text a{
+  padding:0 5px;
+  color:#757575;
+  font-size:12px;
+  background: #eee;
+  margin-right:10px;
+} 
+.nav-text a:hover{
+  background: #ff6700;
+} 
+/* banner */
+.banner {
+  height: 460px;
+}
+.banner .banner-img {
+  position: relative;
+}
+.banner .banner-img img{
+  width: 1226px;
+  height: 460px;
+  overflow: hidden;
+}
+.banner .banner-text {
+  width: 234px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 0;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.banner .banner-text li{
+  padding:0 30px;
+  line-height: 42px;
+}
+.banner .banner-text li:hover{
+  background: #ff6700;
+}
+.banner .banner-text li a{
+  color:#fff;
+  font-size:14px;
+}
+.banner .banner-text li span{
+  color:rgba(255, 255, 255, 0.5);
+  font-size:18px;
+}
+/* 新闻 */
+.new-inner {
+  height: 180px;
+  border:1px solid #ccc;
+  margin: 15px 0 25px 0;
+}
+.new-inner .new-innertip{
+  width: 234px;
+  height: 180px;
+  border:1px solid pink
 }
